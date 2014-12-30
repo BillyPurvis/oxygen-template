@@ -5,7 +5,7 @@ section {
   padding-top: 100px;
 }
 
-p.header {
+p.title {
   font-size: 350%;
   margin-left: auto;
   margin-right: auto;
@@ -48,5 +48,5 @@ body {
   min-height: 100%;
 }
 
-* { margin: 0; 
+* { margin: 0;
 }
