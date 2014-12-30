@@ -1,0 +1,52 @@
+section {
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+
+p.header {
+  font-size: 350%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  padding-bottom: 20px;
+}
+
+
+p.text {
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  color: white;
+  font-size: 140%;
+  padding-bottom: 20px;
+}
+
+div.links {
+  height: auto;
+  width: 174px;
+  float: center;
+}
+
+a.icons {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-image:url('image/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+}
+
+* { margin: 0; }
