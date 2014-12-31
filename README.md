@@ -8,5 +8,6 @@ Sources
 - Icons: http://designdeck.co.uk/a/1245/IC-Circle-Social-Icon-Set
 - Background: unknown, found on Wallbase
 - Font: Roboto Slab (title) and Roboto (text) by Christian Robertson
+- Conversion to Webp: http://image.online-convert.com/convert-to-webp
 
 Have fun creating your own quick biography page!
