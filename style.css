@@ -1,4 +1,17 @@
-section {
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-image:url('image/background.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+}
+
+section.biography {
   width: 768px;
   margin-left: auto;
   margin-right: auto;
@@ -21,24 +34,18 @@ p.text {
   padding-bottom: 20px;
 }
 
-section.bottom-text {
+section.credits {
+  vertical-align: bottom;
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+}
+
+p.credits {
   font-family: 'Roboto', sans-serif;
   font-size: 80%;
   color: white;
-  vertical-align: bottom;
-}
-
-html {
-  height: 100%;
-  min-height: 100%;
-}
-
-body {
-  background-image:url('image/background.webp');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 100%;
 }
 
 * { margin: 0;
