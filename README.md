@@ -2,7 +2,7 @@ A short biography website I made to experiment with creating web pages. You can 
 
 1. Edit the lines mentioned in the HTML-file (open it with an editor like GitHub's own Atom)
 2. Change the background image at user-images/background.webp to something you like (use the link below to convert your image to webp)
-3. Change user-images/avatar.webp to a picture of you (180x320, and again, convert the picture to webp)
+3. Change user-images/avatar.webp to a picture of you (at least 1080x1920, and again, convert the picture to webp)
 4. Put it on your server and you're done!
 
 Sources

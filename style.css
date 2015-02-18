@@ -4,14 +4,15 @@ html {
 }
 
 body {
-  background-image:url('user-images/background.webp');
+  min-height: 100%;
+  max-height: 100%;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("user-images/background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 100%;
-  width: 920px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 section.title {
@@ -19,20 +20,24 @@ section.title {
   padding-bottom: 20px;
 }
 
-section.credits {
-  padding-top: 200px;
-}
-
 div.text {
-  width: 700px;
+  width: 70%;
   float: left;
-  padding-bottom: 40px;
 }
 
-div.picture {
-  width: 180px;
+div.links {
+  padding-top: 40px;
+}
+
+div.avatar {
+  width: 25%;
+  height: auto;
   float: right;
-  padding-bottom: 40px;
+}
+
+img.avatar {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 p.title {
@@ -43,16 +48,10 @@ p.title {
 
 p.text {
   font-family: 'Roboto', sans-serif;
-  font-size: 140%;
+  font-size: large;
   color: white;
   text-align: justify;
   text-justify: inter-word;
-}
-
-p.credits {
-  font-family: 'Roboto', sans-serif;
-  font-size: 80%;
-  color: white;
 }
 
 * { margin: 0;
