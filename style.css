@@ -1,49 +1,79 @@
+/* ---------------------- */
+/* ---- General  CSS ---- */
+/* ---------------------- */
+
 html {
   height: 100%;
   min-height: 100%;
 }
 
+* { margin: 0;
+}
+
 body {
   min-height: 100%;
   max-height: 100%;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
   background-image: url("user-images/background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-section.title {
+/* ---------------------- */
+/* - The header section - */
+/* ---------------------- */
+
+section.header {
+  background-color: white;
+  opacity: 0.8;
+  width: 100%;
+}
+
+div.header {
+  height: 40px;
+  display: table;
+}
+
+span.header {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+p.header {
+  padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  color: grey;
+}
+
+/* ---------------------- */
+/* -- The body section -- */
+/* ---------------------- */
+
+section.body {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 1. The title */
+
+div.title {
   padding-top: 100px;
   padding-bottom: 20px;
-}
-
-div.text {
-  width: 70%;
-  float: left;
-}
-
-div.links {
-  padding-top: 40px;
-}
-
-div.avatar {
-  width: 25%;
-  height: auto;
-  float: right;
-}
-
-img.avatar {
-  max-height: 100%;
-  max-width: 100%;
 }
 
 p.title {
   font-family: 'Roboto Slab', serif;
   font-size: 350%;
   color: white;
+}
+
+/* 2. The text and social media links */
+
+div.text {
+  width: 70%;
+  float: left;
 }
 
 p.text {
@@ -54,5 +84,19 @@ p.text {
   text-justify: inter-word;
 }
 
-* { margin: 0;
+div.links {
+  padding-top: 40px;
+}
+
+/* 3. The avatar */
+
+div.avatar {
+  width: 25%;
+  height: auto;
+  float: right;
+}
+
+img.avatar {
+  max-height: 100%;
+  max-width: 100%;
 }
