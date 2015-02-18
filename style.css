@@ -34,16 +34,28 @@ div.header {
   display: table;
 }
 
-span.header {
+span.item1 {
   display: table-cell;
   vertical-align: middle;
 }
 
-p.header {
+span.item2 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+a.header {
   padding-left: 20px;
   font-family: 'Roboto', sans-serif;
   font-size: large;
   color: grey;
+}
+
+a:hover.header {
+  padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  color: #10253F;
 }
 
 /* ---------------------- */
