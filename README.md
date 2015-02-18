@@ -1,8 +1,9 @@
 A short biography website I made to experiment with creating web pages. You can make it your own very easily by following these steps:
 
 1. Edit the lines mentioned in the HTML-file (open it with an editor like GitHub's own Atom)
-2. Edit the background image at image/background.webp to something you like (use the link below to convert your image to webp)
-3. Put it on your server and you're done!
+2. Change the background image at user-images/background.webp to something you like (use the link below to convert your image to webp)
+3. Change user-images/avatar.webp to a picture of you (180x320, and again, convert the picture to webp)
+4. Put it on your server and you're done!
 
 Sources
 - Icons: http://designdeck.co.uk/a/1245/IC-Circle-Social-Icon-Set

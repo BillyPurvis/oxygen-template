@@ -4,25 +4,41 @@ html {
 }
 
 body {
-  background-image:url('image/background.webp');
+  background-image:url('user-images/background.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 100%;
-}
-
-section.biography {
-  width: 768px;
+  width: 920px;
   margin-left: auto;
   margin-right: auto;
+}
+
+section.title {
   padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+section.credits {
+  padding-top: 200px;
+}
+
+div.text {
+  width: 700px;
+  float: left;
+  padding-bottom: 40px;
+}
+
+div.picture {
+  width: 180px;
+  float: right;
+  padding-bottom: 40px;
 }
 
 p.title {
   font-family: 'Roboto Slab', serif;
   font-size: 350%;
   color: white;
-  padding-bottom: 20px;
 }
 
 p.text {
@@ -31,15 +47,6 @@ p.text {
   color: white;
   text-align: justify;
   text-justify: inter-word;
-  padding-bottom: 20px;
-}
-
-section.credits {
-  vertical-align: bottom;
-  width: 768px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 200px;
 }
 
 p.credits {
