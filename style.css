@@ -1,92 +1,76 @@
-/* ---------------------- */
-/* ---- General  CSS ---- */
-/* ---------------------- */
-
-html {
-  height: 100%;
-  min-height: 100%;
-}
-
 * { margin: 0;
 }
 
+html, body, div.nav {
+  height: 100%;
+  min-height: 100%
+}
+
 body {
-  min-height: 100%;
-  max-height: 100%;
   background-image: url("user-images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  font-family: "Roboto", sans-serif;
 }
 
-/* ---------------------- */
-/* - The header section - */
-/* ---------------------- */
-
-section.header {
+nav {
   background-color: white;
-  opacity: 0.8;
-  width: 100%;
   height: 56px;
 }
 
-div.header {
+nav, div.space, div.image, div.content {
+  width: 100%;
+}
+
+nav, div.content {
+  opacity: 0.8;
+}
+
+section, div.nav {
+  padding-left: 28px;
+  padding-right: 28px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  max-height: 100%;
-  min-height: 100%;
 }
 
 div.credits {
   float: right;
 }
 
-span.header {
+span {
   line-height: 56px;
   display: inline-block;
   vertical-align: middle;
 }
 
-/* ---------------------- */
-/* -- The body section -- */
-/* ---------------------- */
-
-section.body {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 div.space {
   height: 28px;
-  width: 100%;
 }
 
 div.image {
-  width: 100%;
   height: auto;
 }
 
 div.content {
   background-color: #2D3D54;
-  opacity: 0.8;
-  width: 100%;
   height: auto;
 }
 
-div.title {
+div.title, div.text {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+div.title {
   padding-top: 20px;
   padding-bottom: 5px;
 }
 
 div.text {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
   padding-top: 5px;
+  padding-bottom: 20px;
 }
 
 img.image {
@@ -94,58 +78,33 @@ img.image {
   max-width: 100%;
 }
 
-/* ---------------------- */
-/* ----- Text  Types ---- */
-/* ---------------------- */
-
-/* 1. Header links */
-
-a.header {
-  padding-left: 5px;
-  padding-right: 15px;
-  font-family: 'Roboto', sans-serif;
+a.nav, a.credits, a.nav-current {
   font-size: large;
+  text-decoration: none;
+}
+
+a.nav, a.credits {
   color: grey;
-  text-decoration: none;
 }
 
-a:hover.header {
+a.nav, a.nav-current {
+  padding-right: 20px;
+}
+
+a:hover.nav, a:hover.credits, a.nav-current {
   color: black;
 }
 
-a.credits {
-  padding-right: 5px;
-  font-family: 'Roboto', sans-serif;
-  font-size: large;
-  color: grey;
-  text-decoration: none;
+p.title, p.text {
+  color: white;
 }
-
-a:hover.credits {
-  color: black;
-}
-
-a.current {
-  padding-left: 5px;
-  padding-right: 15px;
-  font-family: 'Roboto', sans-serif;
-  font-size: large;
-  color: black;
-  text-decoration: none;
-}
-
-/* 2. Other text */
 
 p.title {
-  font-family: 'Roboto Slab', serif;
   font-size: 300%;
-  color: white;
 }
 
 p.text {
-  font-family: 'Roboto', sans-serif;
   font-size: large;
-  color: white;
   text-align: justify;
   text-justify: inter-word;
 }
