@@ -31,7 +31,7 @@ section.header {
 }
 
 div.header {
-  width: 75%;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   max-height: 100%;
@@ -48,8 +48,61 @@ span.header {
   vertical-align: middle;
 }
 
-a.header {
+/* ---------------------- */
+/* -- The body section -- */
+/* ---------------------- */
+
+section.body {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.space {
+  height: 28px;
+  width: 100%;
+}
+
+div.image {
+  width: 100%;
+  height: auto;
+}
+
+div.content {
+  background-color: #2D3D54;
+  opacity: 0.8;
+  width: 100%;
+  height: auto;
+}
+
+div.title {
+  padding-left: 20px;
   padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+div.text {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+img.image {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* ---------------------- */
+/* ----- Text  Types ---- */
+/* ---------------------- */
+
+/* 1. Header links */
+
+a.header {
+  padding-left: 5px;
+  padding-right: 15px;
   font-family: 'Roboto', sans-serif;
   font-size: large;
   color: grey;
@@ -61,6 +114,7 @@ a:hover.header {
 }
 
 a.credits {
+  padding-right: 5px;
   font-family: 'Roboto', sans-serif;
   font-size: large;
   color: grey;
@@ -71,34 +125,21 @@ a:hover.credits {
   color: black;
 }
 
-/* ---------------------- */
-/* -- The body section -- */
-/* ---------------------- */
-
-section.body {
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
+a.current {
+  padding-left: 5px;
+  padding-right: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  color: black;
+  text-decoration: none;
 }
 
-/* 1. The title */
-
-div.title {
-  padding-top: 100px;
-  padding-bottom: 20px;
-}
+/* 2. Other text */
 
 p.title {
   font-family: 'Roboto Slab', serif;
-  font-size: 350%;
+  font-size: 300%;
   color: white;
-}
-
-/* 2. The text and social media links */
-
-div.text {
-  width: 70%;
-  float: left;
 }
 
 p.text {
@@ -107,21 +148,4 @@ p.text {
   color: white;
   text-align: justify;
   text-justify: inter-word;
-}
-
-div.links {
-  padding-top: 40px;
-}
-
-/* 3. The avatar */
-
-div.avatar {
-  width: 25%;
-  height: auto;
-  float: right;
-}
-
-img.avatar {
-  max-height: 100%;
-  max-width: 100%;
 }
