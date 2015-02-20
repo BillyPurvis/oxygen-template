@@ -7,6 +7,6 @@ A short biography website I made to experiment with creating web pages. You can 
 
 Sources
 - Images: unknown, found on Wallbase
-- Font: Roboto by Christian Robertson
+- Font: Roboto Slab (title) and Roboto (text) by Christian Robertson
 
 Have fun creating your own quick biography page!

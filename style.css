@@ -1,76 +1,96 @@
+/* ---------------------- */
+/* ---- General  CSS ---- */
+/* ---------------------- */
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
 * { margin: 0;
 }
 
-html, body, div.nav {
-  height: 100%;
-  min-height: 100%
-}
-
 body {
+  min-height: 100%;
+  max-height: 100%;
   background-image: url("user-images/background.png");
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
-  font-family: "Roboto", sans-serif;
+  background-attachment: fixed;
 }
+
+/* ---------------------- */
+/* -- The  nav section -- */
+/* ---------------------- */
 
 nav {
   background-color: white;
+  opacity: 0.8;
+  width: 100%;
   height: 56px;
 }
 
-nav, div.space, div.image, div.content {
-  width: 100%;
-}
-
-nav, div.content {
-  opacity: 0.8;
-}
-
-section, div.nav {
-  padding-left: 28px;
-  padding-right: 28px;
+div.nav {
+  padding-left: 10px;
+  padding-right: 10px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  max-height: 100%;
+  min-height: 100%;
 }
 
 div.credits {
   float: right;
 }
 
-span {
+span.nav {
   line-height: 56px;
   display: inline-block;
   vertical-align: middle;
 }
 
+/* ---------------------- */
+/* -- The body section -- */
+/* ---------------------- */
+
+section {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 div.space {
   height: 28px;
+  width: 100%;
 }
 
 div.image {
+  width: 100%;
   height: auto;
 }
 
 div.content {
   background-color: #2D3D54;
+  opacity: 0.8;
+  width: 100%;
   height: auto;
 }
 
-div.title, div.text {
+div.title {
   padding-left: 20px;
   padding-right: 20px;
-}
-
-div.title {
   padding-top: 20px;
   padding-bottom: 5px;
 }
 
 div.text {
-  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 20px;
+  padding-top: 5px;
 }
 
 img.image {
@@ -78,33 +98,55 @@ img.image {
   max-width: 100%;
 }
 
-a.nav, a.credits, a.nav-current {
+/* ---------------------- */
+/* ----- Text  Types ---- */
+/* ---------------------- */
+
+/* 1. Header links */
+
+a.nav-current {
+  padding-right: 20px;
+  font-family: 'Roboto', sans-serif;
   font-size: large;
+  color: black;
   text-decoration: none;
 }
 
-a.nav, a.credits {
-  color: grey;
-}
-
-a.nav, a.nav-current {
+a.nav {
   padding-right: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  color: grey;
+  text-decoration: none;
 }
 
-a:hover.nav, a:hover.credits, a.nav-current {
+a:hover.nav {
   color: black;
 }
 
-p.title, p.text {
+a.credits {
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover.credits {
+  color: black;
+}
+
+/* 2. Other text */
+
+p.title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 300%;
   color: white;
 }
 
-p.title {
-  font-size: 300%;
-}
-
 p.text {
+  font-family: 'Roboto', sans-serif;
   font-size: large;
+  color: white;
   text-align: justify;
   text-justify: inter-word;
 }
