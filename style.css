@@ -15,7 +15,6 @@ body {
   max-height: 100%;
   background-image: url("user-images/background.png");
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
@@ -49,6 +48,12 @@ span.nav {
   line-height: 56px;
   display: inline-block;
   vertical-align: middle;
+}
+
+@media screen and (max-width: 400px) {
+    div.credits {
+        display: none;
+    }
 }
 
 /* ---------------------- */
