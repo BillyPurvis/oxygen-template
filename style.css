@@ -2,14 +2,13 @@
 /* ---- General  CSS ---- */
 /* ---------------------- */
 
-html {
-  height: 100vh;
-  min-height: 100vh;
-  background: url(user-images/background.png) no-repeat center center fixed;
-  background-size: cover;
+* { margin: 0;
 }
 
-* { margin: 0;
+body {
+  height: 100vh;
+  background: url(user-images/background.png) no-repeat center center fixed;
+  background-size: cover;
 }
 
 /* ---------------------- */
