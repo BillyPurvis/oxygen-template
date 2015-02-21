@@ -1,4 +1,8 @@
-A short biography website I made to experiment with creating web pages. You can make it your own very easily by following these steps:
+A short biography website I made to experiment with creating web pages.
+
+Demo: http://jvnknvlgl.github.io/biography-website-template/
+
+Download the latest version from the releases page or clone my repository, and then follow these steps to make it your own:
 
 1. Edit the lines mentioned in the index.html-file and the biography.html-file (open it with an editor like GitHub's own Atom)
 2. Change the background image at user-images/background.png to something you like
