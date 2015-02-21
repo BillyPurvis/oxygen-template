@@ -6,8 +6,15 @@
 }
 
 html {
-  background: url(user-images/background.png) no-repeat center center fixed;
+  height: 100%;
   background-size: cover;
+}
+
+#background {
+  background: url(user-images/background.png) no-repeat center center fixed;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
 }
 
 /* ---------------------- */
