@@ -71,6 +71,11 @@ div.space {
   width: 100%;
 }
 
+div.large-space {
+  height: 84px;
+  width: 100%;
+}
+
 div.image {
   width: 100%;
   height: auto;
