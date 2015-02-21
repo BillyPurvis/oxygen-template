@@ -29,8 +29,8 @@ nav {
 }
 
 div.nav {
-  padding-left: 14px;
-  padding-right: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -59,20 +59,15 @@ span.nav {
 /* ---------------------- */
 
 section {
-  padding-left: 14px;
-  padding-right: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 
 div.space {
-  height: 28px;
-  width: 100%;
-}
-
-div.large-space {
-  height: 84px;
+  height: 10px;
   width: 100%;
 }
 
@@ -114,7 +109,7 @@ img.image {
 /* 1. Header links */
 
 a.nav-current {
-  padding-right: 20px;
+  padding-right: 10px;
   font-family: 'Roboto', sans-serif;
   font-size: large;
   color: black;
@@ -122,7 +117,7 @@ a.nav-current {
 }
 
 a.nav {
-  padding-right: 20px;
+  padding-right: 10px;
   font-family: 'Roboto', sans-serif;
   font-size: large;
   color: grey;
