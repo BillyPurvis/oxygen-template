@@ -1,6 +1,6 @@
 A short biography website I made to experiment with creating web pages.
 
-Demo: http://jvnknvlgl.github.io/biography-website-template/
+Demo: http://jvnknvlgl.github.io/website-template/
 
 Download the latest version from the releases page or clone my repository, and then follow these quick steps to make it your own:
 
@@ -12,5 +12,3 @@ Download the latest version from the releases page or clone my repository, and t
 Sources
 - Images: unknown, found on Wallbase
 - Font: Roboto Slab (title) and Roboto (text) by Christian Robertson
-
-Have fun creating your own quick biography page!
