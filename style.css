@@ -6,6 +6,7 @@
 }
 
 #background {
+  height: 100%;
   width: 100%;
   position: fixed;
   background: url(images/background.png) no-repeat center center fixed;
@@ -53,10 +54,11 @@ section {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 66px;
+  padding-top: 116px;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  opacity: 0;
 }
 
 div.space {
