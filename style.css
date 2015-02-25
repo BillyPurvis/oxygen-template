@@ -1,12 +1,7 @@
-/* ---------------------- */
-/* ---- General  CSS ---- */
-/* ---------------------- */
-
 * { margin: 0;
 }
 
 #background {
-  height: 100%;
   width: 100%;
   position: fixed;
   background: url(images/background.png) no-repeat center center fixed;
@@ -14,11 +9,7 @@
   z-index: -1;
 }
 
-/* ---------------------- */
-/* -- The  nav section -- */
-/* ---------------------- */
-
-nav {
+header {
   height: 56px;
   width: 100%;
   position: fixed;
@@ -26,7 +17,7 @@ nav {
   z-index: 1;
 }
 
-div.nav {
+nav {
   height: 100%;
   max-width: 800px;
   margin-left: auto;
@@ -42,13 +33,9 @@ div.credits {
   overflow: hidden;
 }
 
-span.nav {
+span {
   line-height: 56px;
 }
-
-/* ---------------------- */
-/* -- The body section -- */
-/* ---------------------- */
 
 section {
   max-width: 800px;
@@ -71,7 +58,12 @@ div.image {
   height: auto;
 }
 
-div.content {
+img.image {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+article {
   width: 100%;
   height: auto;
   background-color: rgba(45, 61, 84, 0.8);
@@ -90,17 +82,6 @@ div.text {
   padding-left: 20px;
   padding-right: 20px;
 }
-
-img.image {
-  max-height: 100%;
-  max-width: 100%;
-}
-
-/* ---------------------- */
-/* ----- Text  Types ---- */
-/* ---------------------- */
-
-/* 1. Header links */
 
 a {
   font-family: 'Roboto', sans-serif;
@@ -133,8 +114,6 @@ a.credits {
 a:hover.credits {
   color: black;
 }
-
-/* 2. Other text */
 
 p {
   color: white;
