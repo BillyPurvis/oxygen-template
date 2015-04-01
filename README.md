@@ -17,3 +17,5 @@ Included files:
 Sources:
 - font: Roboto and Roboto Slab by Christian Robertson
 - example images: unknown, found on Wallbase
+
+Created with love by Jasper Vinkenvleugel (jvnknvlgl)
