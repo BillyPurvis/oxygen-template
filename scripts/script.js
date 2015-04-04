@@ -1,7 +1,7 @@
 window.onload = function() {
   document.getElementById("background").style.height = (window.innerHeight + 100) + "px";
   $("section").animate( {
-    paddingTop: "66px",
+    paddingTop: "84px",
     opacity: "1",
   });
 };
