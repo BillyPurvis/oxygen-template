@@ -17,6 +17,7 @@ header {
 }
 
 nav, section {
+  height: 56px;
   width: 90%;
   max-width: 800px;
   margin-left: auto;
