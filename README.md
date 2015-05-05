@@ -7,13 +7,13 @@ Oxygen is the base of your website. Including a navigation bar, full-size backgr
 A preview of the theme: http://jvnknvlgl.github.io/oxygen-template
 
 Included html files:
-- index.html: demo page with a picture and some text.
-- sub-x.html: empty demo pages with a secondary navigation bar.
-- page-2.html: demo page with a larger amount of text.
+- index.html: demo page with a picture and some text
+- sub-x.html: empty demo pages with a secondary navigation bar
+- page-2.html: demo page with a larger amount of text
 
 Other included files:
-- style.css: styling of the website.
-- script.js: sctipt for the fade in animation.
+- style.css: styling of the website
+- script.js: script for the fade in animation
 - image folder: collection of all images used on the website
 
 Sources:
