@@ -4,9 +4,6 @@ window.onload = function() {
     paddingTop: "14px",
     opacity: "1",
   });
-  $("header.secondary").animate( {
-    opacity: "1",
-  }, 1000 );
 };
 
 jQuery.easing.def = "easeOutExpo";
