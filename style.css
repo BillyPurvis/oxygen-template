@@ -12,21 +12,29 @@
 header {
   height: 56px;
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.8);
   z-index: 1;
   box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
 }
 
+header.main {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+header.secondary {
+  background-color: rgba(45, 61, 84, 0.8);
+  opacity: 0;
+}
+
 nav, section {
-  height: 56px;
   max-width: 800px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
   margin-left: auto;
   margin-right: auto;
 }
 
 nav {
+  height: 56px;
   overflow-y: hidden;
   white-space: nowrap;
 }
@@ -39,8 +47,7 @@ div.credits {
 span { line-height: 56px; }
 
 section {
-  padding-top: 134px;
-  padding-bottom: 14px;
+  padding-top: 70px;
   opacity: 0;
 }
 
@@ -51,7 +58,7 @@ img, article {
 
 article { background-color: rgba(45, 61, 84, 0.8); }
 
-div.content-divider { height: 42px; }
+div.navpadding { height: 56px; }
 
 div.text, div.title {
   padding-left: 20px;
@@ -75,14 +82,18 @@ p.text, a {
 
 a { text-decoration: none; }
 
-a.nav-current, a.nav {
+a.main-current, a.main, a.secondary-current, a.secondary {
   padding-left: 4px;
   padding-right: 10px;
 }
 
-a.nav-current, a:hover.nav, a:hover.credits { color: black; }
+a.main-current, a:hover.main, a:hover.credits { color: black; }
 
-a.nav, a.credits { color: rgba(45, 61, 84, 0.8); }
+a.main, a.credits { color: rgba(45, 61, 84, 0.7); }
+
+a.secondary-current, a:hover.secondary { color: white; }
+
+a.secondary { color: rgba(230, 230, 230, 0.7) }
 
 a.credits {
   padding-left: 30px;
