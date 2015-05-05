@@ -6,16 +6,18 @@ Oxygen is the base of your website. Including a navigation bar, full-size backgr
 
 A preview of the theme: http://jvnknvlgl.github.io/oxygen-template
 
-Included files:
-- index.html: the home page of your website. The example version comes with a text and a picture element.
-- page-1.html: the first example page, which comes with an example text element.
-- page-2.html: the second example page, which comes without any elements by default.
-- style.css: the styling of the website.
-- script.js: a script to center the full-size background image on mobile browsers.
-- image folder: the place you can store your own images.
+Included html files:
+- index.html: demo page with a picture and some text.
+- sub-x.html: empty demo pages with a secondary navigation bar.
+- page-2.html: demo page with a larger amount of text.
+
+Other included files:
+- style.css: styling of the website.
+- script.js: sctipt for the fade in animation.
+- image folder: collection of all images used on the website
 
 Sources:
 - font: Roboto and Roboto Slab by Christian Robertson
-- example images: unknown, found on Wallbase
+- example images: unknown, both found on Wallbase
 
 Created with love by Jasper Vinkenvleugel (jvnknvlgl)
