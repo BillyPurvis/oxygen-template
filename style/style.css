@@ -19,10 +19,9 @@ header.main {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-header.secondary {
-  background-color: rgba(45, 61, 84, 0.8);
-  opacity: 0;
-}
+header.secondary, header.secondaryfade { background-color: rgba(45, 61, 84, 0.8); }
+
+header.secondaryfade { opacity: 0; }
 
 nav, section {
   max-width: 800px;
