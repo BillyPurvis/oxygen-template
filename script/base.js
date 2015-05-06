@@ -9,8 +9,4 @@ window.onload = function() {
   }, 1000);
 };
 
-window.onresize = function() {
-  document.getElementById("background").style.height = (window.innerHeight + 100) + "px";
-};
-
 jQuery.easing.def = "easeOutExpo";
