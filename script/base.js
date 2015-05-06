@@ -3,10 +3,10 @@ window.onload = function() {
   $("section").animate( {
     paddingTop: "14px",
     opacity: "1",
-  });
+  }, 1500);
   $("header.secondaryfade").animate( {
     opacity: "1",
-  }, 1000);
+  }, 1500);
 };
 
 jQuery.easing.def = "easeOutExpo";
