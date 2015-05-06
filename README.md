@@ -8,16 +8,16 @@ A preview of the theme: http://jvnknvlgl.github.io/oxygen-template
 
 Included html files:
 - index.html: demo page with a picture and some text
-- sub-x.html: empty demo pages with a secondary navigation bar
-- page-2.html: demo page with a larger amount of text
+- sub-x.html: demo pages with a secondary navigation bar
+- page-2.html: demo page with two columns
 
 Other included files:
 - style.css: styling of the website
-- script.js: script for the fade in animation
+- base.js: script to correct the background
 - image folder: collection of all images used on the website
 
 Sources:
 - font: Roboto and Roboto Slab by Christian Robertson
-- example images: unknown, both found on Wallbase
+- example images: background.png and header.png are from wallbase, the others are OC
 
 Created with love by Jasper Vinkenvleugel (jvnknvlgl)
