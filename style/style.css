@@ -2,7 +2,7 @@
 
 #background {
   position: fixed;
-  background: url(../images/background.png) no-repeat center center fixed;
+  background: url(../image/background/background.png) no-repeat center center fixed;
   background-size: cover;
   z-index: -1;
 }
@@ -56,6 +56,31 @@ span.credits {
 }
 
 div.navpadding { height: 56px; }
+
+div.left {
+  max-width: 392px;
+  padding-right: 8px;
+  float: left;
+}
+
+div.right {
+  max-width: 392px;
+  padding-left: 8px;
+  float: right;
+}
+
+@media screen and (max-width: 820px) {
+    div.right {
+        float: none;
+        padding-left: 0px;
+        max-width: 1000px;
+    }
+    div.left {
+        float: none;
+        padding-right: 0px;
+        max-width: 1000px;
+    }
+}
 
 /* --- Page elements --- */
 
