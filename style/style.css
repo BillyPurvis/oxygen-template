@@ -96,14 +96,14 @@ div.text {
 
 /* --- Text and links --- */
 
-a, p.text {
-  font-family: "Roboto", sans-serif;
-  font-size: large;
-}
-
 p.title {
   font-family: 'Roboto Slab', serif;
   font-size: 250%;
+}
+
+a, p.text {
+  font-family: "Roboto", sans-serif;
+  font-size: large;
 }
 
 a { text-decoration: none; }
@@ -139,12 +139,12 @@ p.text { text-align: justify; }
 }
 
 @media screen and (max-width: 820px) {
-    div.right, div.left {
-        max-width: none;
-        padding-left: 0px;
-        float: none;
-    }
+  div.right, div.left {
+    max-width: none;
+    padding-left: 0px;
+    float: none;
+  }
 
-    div.right { padding-left: 0px; }
-    div.left { padding-right: 0px; }
+  div.right { padding-left: 0px; }
+  div.left { padding-right: 0px; }
 }
