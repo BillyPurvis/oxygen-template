@@ -21,7 +21,11 @@ header.main {
 
 header.secondary, header.secondaryfade { background-color: rgba(45, 61, 84, 0.8); }
 
-header.secondaryfade { opacity: 0; }
+header.secondaryfade {
+  opacity: 0;
+  animation: opacitynav 0.8s forwards;
+  -webkit-animation: opacitynav 0.8s forwards;
+}
 
 nav, section {
   max-width: 800px;
@@ -37,17 +41,23 @@ nav {
   white-space: nowrap;
 }
 
+section {
+  padding-top: 50px;
+  opacity: 0;
+  animation: fadein 0.3s forwards;
+  -webkit-animation: fadein 0.3s forwards;
+}
+
+span { line-height: 56px; }
+
 div.credits {
   float: right;
   overflow: hidden;
 }
 
-span { line-height: 56px; }
+div.navpadding { height: 56px; }
 
-section {
-  padding-top: 64px;
-  opacity: 0;
-}
+/* --- Page elements --- */
 
 img, article {
   margin-bottom: 14px;
@@ -55,8 +65,6 @@ img, article {
 }
 
 article { background-color: rgba(45, 61, 84, 0.8); }
-
-div.navpadding { height: 56px; }
 
 div.text, div.title {
   padding-left: 20px;
@@ -72,6 +80,8 @@ div.text {
   padding-top: 5px;
   padding-bottom: 20px;
 }
+
+/* --- Text and links --- */
 
 p.text, a {
   font-family: "Roboto", sans-serif;
@@ -108,4 +118,26 @@ p.title {
 p.text {
   text-align: justify;
   text-justify: inter-word;
+}
+
+/* --- Animations --- */
+
+@keyframes fadein {
+  from { opacity: 0; padding-top: 50px; }
+  to { opacity: 1; padding-top: 14px; }
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; padding-top: 50px; }
+  to { opacity: 1; padding-top: 14px; }
+}
+
+@keyframes opacitynav {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@-webkit-keyframes opacitynav {
+  from { opacity: 0; }
+  to {opacity: 1; }
 }
