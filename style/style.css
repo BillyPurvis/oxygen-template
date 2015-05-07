@@ -1,13 +1,20 @@
+/* --- Base colors --- */
+
+header.secondary, header.secondaryfade          { background-color: #185057; }
+article                                         { background-color: #49C1A1; }
+html                                            { background-color: #C3E5D4; }
+
+a.main-current, a:hover.main, a:hover.credits   { color: black; }
+a.main, a.credits                               { color: #185057; }
+
+a.secondary-current, a:hover.secondary, p       { color: white; }
+a.secondary                                     { color: #BCC6CC; }
+
+/* --- Layout --- */
+
 * { margin: 0; }
 
-#background {
-  position: fixed;
-  background: url(../image/background/background.png) no-repeat center center fixed;
-  background-size: cover;
-  z-index: -1;
-}
-
-#background, header, img, article { width: 100%; }
+header, img, article { width: 100%; }
 
 header, nav, div.navpadding { height: 56px; }
 
@@ -16,8 +23,6 @@ header.main {
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.8);
 }
-
-header.secondary, header.secondaryfade { background-color: rgba(45, 61, 84, 0.8); }
 
 header.secondaryfade {
   opacity: 0;
@@ -77,8 +82,6 @@ img, article {
   display: table;
 }
 
-article { background-color: rgba(45, 61, 84, 0.8); }
-
 div.text, div.title {
   padding-left: 20px;
   padding-right: 20px;
@@ -107,12 +110,6 @@ a, p.text {
 }
 
 a { text-decoration: none; }
-
-a.main-current, a:hover.main, a:hover.credits { color: black; }
-a.main, a.credits { color: rgba(45, 61, 84, 0.7); }
-
-a.secondary-current, a:hover.secondary, p { color: white; }
-a.secondary { color: rgba(230, 230, 230, 0.7) }
 
 p.text { text-align: justify; }
 
