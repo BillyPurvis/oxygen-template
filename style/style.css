@@ -1,18 +1,6 @@
-/* --- Base colors --- */
-
-header.secondary, header.secondaryfade          { background-color: #185057; }
-article                                         { background-color: #49C1A1; }
-html                                            { background-color: #C3E5D4; }
-
-a.main-current, a:hover.main, a:hover.credits   { color: black; }
-a.main, a.credits                               { color: #185057; opacity: 0.8; }
-
-a.secondary-current, a:hover.secondary, p       { color: white; }
-a.secondary                                     { color: #BCC6CC; }
-
-/* --- Layout --- */
-
 * { margin: 0; }
+
+body { background-color: #C3E5D4; }
 
 header, img, article { width: 100%; }
 
@@ -23,6 +11,8 @@ header.main {
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.8);
 }
+
+header.secondary, header.secondaryfade { background-color: #185057; }
 
 header.secondaryfade {
   opacity: 0;
@@ -68,12 +58,12 @@ div.right { float: right; }
 div.paddingright { padding-right: 8px; }
 div.paddingleft { padding-left: 8px; }
 
-/* --- Page elements --- */
-
 img, article {
   margin-bottom: 14px;
   display: table;
 }
+
+article { background-color: #49C1A1; }
 
 div.text, div.title {
   padding-left: 20px;
@@ -90,8 +80,6 @@ div.text {
   padding-bottom: 20px;
 }
 
-/* --- Text and links --- */
-
 p.title {
   font-family: 'Roboto Slab', serif;
   font-size: 250%;
@@ -106,7 +94,11 @@ a { text-decoration: none; }
 
 p.text { text-align: justify; }
 
-/* --- Animations --- */
+a.main-current, a:hover.main, a:hover.credits { color: black; }
+a.main, a.credits { color: #185057; opacity: 0.8; }
+
+a.secondary-current, a:hover.secondary, p { color: white; }
+a.secondary { color: #BCC6CC; }
 
 @keyframes fadein {
   from { opacity: 0; padding-top: 50px; }

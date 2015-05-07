@@ -6,6 +6,54 @@ Oxygen is the base of your website. Including a navigation bar and two example b
 
 A preview of the theme: http://jvnknvlgl.github.io/oxygen-template
 
+# Edit Guide
+
+#### Elements
+
+- Text element. Edit the mentioned pieces of text, and put this inside <section> in the html file.
+
+```html
+<article>
+  <div class="title">
+    <p class="title">This is where the title goes.</p>
+  </div>
+  <div class="text">
+    <p class="text">
+      This is where the text goes.
+    </p>
+  </div>
+</article>
+```
+- Picture element. Add a png and webp image to the correct paths, and put this inside <section> in the html file.
+
+```html
+<picture>
+  <source type="image/webp" srcset="image/webp/image.webp">
+  <img src="image/png/image.png">
+</picture>
+```
+#### Multiple columns
+
+To add a second column to your page, add the previously mentioned elements to the mentioned places, and put it inside <section in the html file.
+
+```html
+<div class="left">
+  <div class="paddingright">
+
+  Add the left element here.
+
+  </div>
+</div>
+<div class="right">
+  <div class="paddingleft">
+
+  Add the right element here.
+
+  </div>
+</div>
+```
+# Sources and file discriptions
+
 Included html files:
 - index.html: demo page with a picture and some text
 - sub-x.html: demo pages with a secondary navigation bar
@@ -14,6 +62,8 @@ Included html files:
 Other included files:
 - style.css: styling of the website
 - image folder: collection of all images used on the website
+- README.md: this file
+- LICENSE.md: description of the license
 
 Sources:
 - font: Roboto and Roboto Slab by Christian Robertson
