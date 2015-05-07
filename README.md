@@ -19,5 +19,6 @@ Sources:
 - font: Roboto and Roboto Slab by Christian Robertson
 - example images: pictures I've shot myself
 - color scheme: http://www.dadapixel.com/blog/2015/5/6/the-may-palette-punch
+- webp conversion: http://image.online-convert.com/convert-to-webp
 
 Created with love by Jasper Vinkenvleugel (jvnknvlgl)
