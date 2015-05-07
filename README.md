@@ -10,7 +10,7 @@ A preview of the theme: http://jvnknvlgl.github.io/oxygen-template
 
 #### Elements
 
-- Text element. Edit the mentioned pieces of text, and put this inside <section> in the html file.
+- Text element. Edit the mentioned pieces of text, and put this inside `<section>` in the html file.
 
 ```html
 <article>
@@ -24,7 +24,7 @@ A preview of the theme: http://jvnknvlgl.github.io/oxygen-template
   </div>
 </article>
 ```
-- Picture element. Add a png and webp image to the correct paths, and put this inside <section> in the html file.
+- Picture element. Add a png and webp image to the correct paths, and put this inside `<section>` in the html file.
 
 ```html
 <picture>
@@ -34,7 +34,7 @@ A preview of the theme: http://jvnknvlgl.github.io/oxygen-template
 ```
 #### Multiple columns
 
-To add a second column to your page, add the previously mentioned elements to the mentioned places, and put it inside <section in the html file.
+To add a second column to your page, add the previously mentioned elements to the mentioned places, and put it inside `<section>` in the html file.
 
 ```html
 <div class="left">
