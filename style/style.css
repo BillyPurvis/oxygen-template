@@ -5,7 +5,7 @@ article                                         { background-color: #49C1A1; }
 html                                            { background-color: #C3E5D4; }
 
 a.main-current, a:hover.main, a:hover.credits   { color: black; }
-a.main, a.credits                               { color: #185057; }
+a.main, a.credits                               { color: #185057; opacity: 0.8; }
 
 a.secondary-current, a:hover.secondary, p       { color: white; }
 a.secondary                                     { color: #BCC6CC; }
@@ -63,17 +63,13 @@ span.credits {
   padding-right: 4px;
 }
 
-div.left, div.right { max-width: 392px; }
+div.left, div.right { max-width: 50% }
 
-div.left {
-  padding-right: 8px;
-  float: left;
-}
+div.left { float: left; }
+div.right { float: right; }
 
-div.right {
-  padding-left: 8px;
-  float: right;
-}
+div.paddingright { padding-right: 8px; }
+div.paddingleft { padding-left: 8px; }
 
 /* --- Page elements --- */
 
@@ -135,13 +131,12 @@ p.text { text-align: justify; }
   to {opacity: 1; }
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 700px) {
   div.right, div.left {
     max-width: none;
-    padding-left: 0px;
     float: none;
   }
 
-  div.right { padding-left: 0px; }
-  div.left { padding-right: 0px; }
+  div.paddingright { padding-right: 0px; }
+  div.paddingleft { padding-left: 0px; }
 }
