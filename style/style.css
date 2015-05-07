@@ -20,7 +20,7 @@ header.secondaryfade {
   -webkit-animation: opacitynav 0.8s forwards;
 }
 
-.main-inner, .fa { display: none;}
+.main-inner, .fa { display: none; }
 
 nav, section {
   max-width: 800px;
@@ -144,6 +144,7 @@ a.secondary { color: #BCC6CC; }
 
   img { max-height: 280px; }
   /* Mobile Navigation */ 
+  .main-inner, .fa { display: inline;}
 
   .fa { font-size: 1.5em; }
   span { width: 20%; float: left; text-align: center; right: 0; top: 15px }
