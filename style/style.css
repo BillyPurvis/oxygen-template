@@ -20,6 +20,8 @@ header.secondaryfade {
   -webkit-animation: opacitynav 0.8s forwards;
 }
 
+.main-inner, .fa { display: none;}
+
 nav, section {
   max-width: 800px;
   padding-left: 8px;
@@ -37,6 +39,7 @@ section {
   -webkit-animation: fadein 0.3s forwards;
 }
 ul {
+  padding: 0;
   height: inherit;
 }
 
